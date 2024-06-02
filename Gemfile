@@ -96,3 +96,8 @@ end
 gem "devise", "~> 4.9"
 
 gem "activeadmin", "~> 3.2"
+
+gem 'activerecord-postgis-adapter'
+
+gem 'webpacker'
+

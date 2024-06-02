@@ -1,4 +1,4 @@
-class CreateAdminUsers < ActiveRecord::Migration[7.1]
+class DeviseCreateAdminUsers < ActiveRecord::Migration[7.1]
     def change
       create_table :admin_users do |t|
         t.string :email, null: false, default: ""
