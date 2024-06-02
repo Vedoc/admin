@@ -6,7 +6,7 @@ ruby "3.3.1"
 gem "rails", "~> 7.1.3", ">= 7.1.3.3"
 
 # Vedoc app models
-# gem 'vedoc-plugin', git: 'https://github.com/vedoc/vedoc-plugin.git'
+gem 'vedoc-plugin', git: 'https://github.com/vedoc/vedoc-plugin.git'
 
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
