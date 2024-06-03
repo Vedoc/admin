@@ -95,13 +95,16 @@ end
 
 gem "devise", "~> 4.9"
 
-gem "activeadmin", "~> 3.2"
+# gem "activeadmin", "~> 3.2"
 
 gem 'activerecord-postgis-adapter'
 
 gem 'webpacker'
 
 
-gem "rails-settings-cached", "~> 2.9"
+# gem "rails-settings-cached", "~> 2.9"
 
-gem 'activeadmin_settings_cached'
+# gem 'activeadmin_settings_cached'
+
+gem 'activeadmin', '>= 2.9.0', '< 3.2'
+# gem "active_admin_role", git: "https://github.com/activeadmin-plugins/active_admin_role.git", branch: "master"
