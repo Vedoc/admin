@@ -101,3 +101,7 @@ gem 'activerecord-postgis-adapter'
 
 gem 'webpacker'
 
+
+gem "rails-settings-cached", "~> 2.9"
+
+gem 'activeadmin_settings_cached'
