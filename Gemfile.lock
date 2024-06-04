@@ -427,6 +427,7 @@ DEPENDENCIES
   debug
   devise (~> 4.9)
   dotenv-rails
+  ffi (~> 1.9, >= 1.9.10)
   importmap-rails
   jbuilder
   listen (~> 3.5)

@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-# ruby "3.3.1"
-ruby '3.3.0'
+ruby "3.3.1"
+# ruby '3.3.0'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-# gem "rails", "~> 7.1.3", ">= 7.1.3.3"
-gem 'rails', '~> 7.1.3.2'
+gem "rails", "~> 7.1.3", ">= 7.1.3.3"
+# gem 'rails', '~> 7.1.3.2'
 
 # Vedoc app models
 gem 'vedoc-plugin', git: 'https://github.com/vedoc/vedoc-plugin.git'
@@ -112,3 +112,5 @@ gem 'activeadmin', '>= 2.9.0', '< 3.2'
 # gem "active_admin_role", git: "https://github.com/activeadmin-plugins/active_admin_role.git", branch: "master"
 
 gem 'csv'
+
+gem 'ffi', '~> 1.9', '>= 1.9.10'
