@@ -108,3 +108,5 @@ gem 'webpacker'
 
 gem 'activeadmin', '>= 2.9.0', '< 3.2'
 # gem "active_admin_role", git: "https://github.com/activeadmin-plugins/active_admin_role.git", branch: "master"
+
+gem 'csv'
